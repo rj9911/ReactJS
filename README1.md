@@ -14,3 +14,5 @@ Power of React is you can directly put Javascript code inside the HTML code usin
 -> Components division in React
 -> Props is important part of the react.It allows you to pass the naming data through react components. Props are arguments that you pass in the react components. They are pass by the attribute. Every component i.e every function has props as default argument
 -> Component is a piece of code that returns or renders some JSX, and we can call person component in any other component.
+-> By using props we can write the diffent data in the function.
+-> We can have Many more things like Hobbies, College Name etc. and if we not use custom components then it would becomes messy, and we hv to write the JSX every single time.But if we another component then we need to simply call it every time in a single line and pass the dynamic properties based on the person.   
