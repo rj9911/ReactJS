@@ -10,4 +10,7 @@ npm run start -> To start the server.
 3. In index.js in src Folder,React DOM is used to render the components in our entire application,into the real DOM more specifically in a Div of id root. We injected all the components in this div hving id root.
 4. App.js -> We hv discussed Functional components are used nowadays, not the Class based functions. We hv JSX in this Folder not HTML, both are differnt, but incredibly similar changes are we use className instead of class in JSX. You can directly render html data inside your javascript.
 Power of React is you can directly put Javascript code inside the HTML code using {} brackets dynamically.
-<></> -> to add two lines of code in one () brackets.
+<></> -> to add two lines of code in one () brackets known as React Fragment.
+-> Components division in React
+-> Props is important part of the react.It allows you to pass the naming data through react components. Props are arguments that you pass in the react components. They are pass by the attribute. Every component i.e every function has props as default argument
+-> Component is a piece of code that returns or renders some JSX, and we can call person component in any other component.
