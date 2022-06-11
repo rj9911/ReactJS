@@ -21,14 +21,19 @@ Power of React is you can directly put Javascript code inside the HTML code usin
 -> By using props we can write the diffent data in the function.
 -> We can have Many more things like Hobbies, College Name etc. and if we not use custom components then it would becomes messy, and we hv to write the JSX every single time.But if we another component then we need to simply call it every time in a single line and pass the dynamic properties based on the person.   
 
-# State in React
-State is a plane JS object used in react to represent piece of information about the components. We hv to import state to use it in our webpage.
-Purpose Of using State is -> We made counter and if I increase or decrease the number, it doesn't works out.
-But now we use state include by using function of useState(), whenever you call the function and it starts with use in react we called it as **hooks**
-We use the syntax and named like (counter, setCounter) setCounter is function to set the counter and also put initial value in the function as 0.
+# State in React or Hook i.e useState
+use state include by using function of useState(), whenever you call the function and it starts with use in react we called it as **hooks**
+We use the syntax and named like (counter, setCounter),setCounter is function to set the variable counter and also put initial value in the function as 0.
 When you give the counter, it's initial state is 0, We hv to write the events like onClick event.
 And write the Call back Function in that event. Calback function is the function with it's name and comment.
 And We made counter as Dynamic as Application on react.
 Without Reloading the page we worked on the features on the webpage.
 When we talking about states we hv to about hooks,without hooks state is not possible.
-Go through the documentation of React once. 
+Go through the documentation of React once.
+# Another hook -> useEffect 
+useEffect works when the page reloads.You can check it by using alert.
+Add the functionality like when the page reloads it gives the counter as 100.
+This can be added using setCounter function as default 100, also gives he second parameter in the useEffect hook as dependency array empty which helps in modifying that default alue using the counter otherwise if not used other parameter then default can not be changed.
+
+Four Most important things that react offers ->
+**Components , States , Props , Hooks i.e useEffect, useState and events like onclick**
